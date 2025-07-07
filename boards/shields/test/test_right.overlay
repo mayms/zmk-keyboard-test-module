@@ -1,4 +1,4 @@
-#include "kimiko_rev2.dtsi"
+#include "test.dtsi"
 
 &default_transform { // The matrix transform for this board is 3 columns over because the left half is 3 columns wide according to the matrix.
     col-offset = <3>;
