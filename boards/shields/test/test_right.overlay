@@ -1,0 +1,13 @@
+#include "kimiko_rev2.dtsi"
+
+&default_transform { // The matrix transform for this board is 3 columns over because the left half is 3 columns wide according to the matrix.
+    col-offset = <3>;
+};
+
+&kscan0 {
+    col-gpios
+        = <&pro_micro 21 GPIO_ACTIVE_HIGH>
+        , <&pro_micro 20 GPIO_ACTIVE_HIGH>
+        , <&pro_micro 19 GPIO_ACTIVE_HIGH>
+        ;
+};

@@ -1,0 +1,11 @@
+file_format: "1"
+id: test
+name: Test
+type: shield
+url: https://github.com/mayms/zmk-keyboard-test-module
+requires: [pro_micro]
+features:
+  - keys
+siblings:
+  - test_left
+  - test_right
